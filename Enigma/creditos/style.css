@@ -15,12 +15,11 @@ h2 {
 }
 
 .w3z {
-  width: 180px;
-  height: 140px;
-  border-radius: 50%;
-  position: absolute;
-  left: 50%;
-  top: 10%;
-  transform: translate(-50%, -15%);
-  
+    width: 180px;
+    height: 140px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -15%);
 }
