@@ -1,0 +1,26 @@
+body {
+  background-color: black;
+}
+
+h2 {
+  color: white;
+}
+
+.dev {
+  text-align: center
+}
+
+.dev h3 {
+  color: darkred;
+}
+
+.w3z {
+  width: 180px;
+  height: 140px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, -15%);
+  
+}

@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+}
+
+.textos h2 {
+ color: white;
+ position: absolute;
+ left: 50%;
+ top: 40%;
+ transform: translate(-50%, -50%);
+}
+
+footer {
+  color: white;
+  position: absolute;
+  top: 80%;
+  opacity: 4%;
+}
+    

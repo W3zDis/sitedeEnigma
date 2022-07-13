@@ -1,0 +1,174 @@
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /*pode ser transparent também*/
+}
+
+body {
+  background-color: black;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #24252a;
+  box-shadow: 0px, 3px, 10px #464646;
+
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 6rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  color: white;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.nav-item {
+  margin: 0 15px;
+  transition: 0.7s;
+}
+
+.nav-item:active {
+  opacity: 50%;
+  box-shadow: 0px 2px 5px #fff;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.15rem;
+  color: #fff;
+  font-weight: 400;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+/*Botoes*/
+  .botao a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .iniciar {
+    color: white;
+    border: 0px;
+    width: 270px;
+    height: 120px;
+    font-size: 29px;
+    font-family: inter, sans-serif;
+    background-color: white;
+    box-shadow: 0px 3px 10px;
+    border-radius: 60px;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -70%);
+    transition: 0.5s;
+  }
+  
+   .iniciar:active,
+   .iniciar:focus {
+     opacity: 30%;
+     width: 250px;
+     height: 100px;
+     border-radius: 70px;
+   }
+/*Fim Botoes*/
+
+/*Titulos*/
+
+ 
+  .titulos h1 {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 150px;
+    
+  }
+  
+  .titulos h2 {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 220px;
+  }
+  
+  
+  
+/*Fim Titulos*/
+
+
+
+@media screen and (max-width: 720px) {
+  .nav-bar {
+    padding: 1.5rem 4rem;
+  }
+
+  .nav-item {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+  }
+
+  .mobile-menu-icon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+  }
+
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  .mobile-menu .nav-item {
+    display: block;
+    padding-top: 1.2rem;
+  }
+  
+  .icon {
+    transition: 0.7s;
+  }
+  
+  
+  .icon:hover,
+  .icon:focus {
+    opacity: 50%;
+    color: gray;
+    
+  }
+}
+
+.open {
+  display: block !important;
+}
