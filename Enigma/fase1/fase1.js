@@ -5,7 +5,7 @@ const senhafase1 = "password"
 digite.addEventListener('click', evt => {
  let res = window.prompt("Coloque a senha pra passar de fase")
    if (res == senhafase1) {
-     window.location.href = "https://www.google.com/amp/s/www.devmedia.com.br/amp/javascript-redirect-redirecionando-o-usuario-com-window-location/39809"
+     window.location.href = "https://minecraft.com.br/?gclid=CjwKCAjw2rmWBhB4EiwAiJ0mtbxW4d41QYnfHzYEW1rFSJZ1pQ_ssTNP-1jb--DMipm4whZOQQi8CRoChIgQAvD_BwE"
    } else {
      document.write("Senha incorreta")
    }
